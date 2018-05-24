@@ -4,7 +4,7 @@ EXPOSE 3000
 WORKDIR /app
 
 ADD package.json /app/
-RUN yarn install
+RUN npm install
 
 ADD . /app
 
