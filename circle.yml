@@ -4,8 +4,8 @@ machine:
 
 dependencies:
   override:
-    - docker build -t DevOps
+    - docker build -t devOps .
 
 test:
   override:
-    - docker run DevOps npm test
+    - docker run devOps npm test
